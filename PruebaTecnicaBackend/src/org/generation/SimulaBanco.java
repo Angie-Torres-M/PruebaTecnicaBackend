@@ -7,6 +7,8 @@ import org.generation.util.banco.Cuenta;
 import org.generation.util.banco.CuentaCredito;
 import org.generation.util.banco.CuentaDebito;
 import org.generation.util.banco.ReciboSaldo;
+import org.generation.util.banco.TarjetaRegalo;
+
 
 public class SimulaBanco {
     public static void main(String[] args) {
@@ -35,6 +37,14 @@ public class SimulaBanco {
 
         cuentas.get(1002).retiro(1000);      // Crédito: retiro (aumenta deuda + comisión 5%)
         cuentas.get(1002).deposito(300);     // Crédito: pago (reduce deuda)
+        
+     // Tarjeta Regalo (Parte 2)
+        TarjetaRegalo regalo = new TarjetaRegalo(250);
+        regalo.deposito(50);
+        regalo.retiro(30);
+
+        ReciboSaldo.Imprimir(regalo);
+
 
     }
 }
