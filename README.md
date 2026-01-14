@@ -2,10 +2,10 @@
 
 ## Información del participante
 
-- **Nombre completo:** Angélica Torres Morales  
+- **Nombre completo:** Angélica Mariel Torres Morales  
 - **Cohorte:** 61  
 - **Fecha:** 14 de enero de 2026  
-- **Hora:** 2:00 p. m.  
+- **Hora:** 3:00 p. m.  
 
 ## Descripción
 
