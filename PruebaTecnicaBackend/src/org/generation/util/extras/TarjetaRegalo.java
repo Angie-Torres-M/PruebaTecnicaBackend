@@ -1,4 +1,6 @@
-package org.generation.util.banco;
+package org.generation.util.extras;
+
+import org.generation.util.banco.Imprimible;
 
 public class TarjetaRegalo implements Imprimible {
 
@@ -12,7 +14,12 @@ public class TarjetaRegalo implements Imprimible {
         this.numeroCuenta = consecutivo;
     }
 
-    @Override
+    public TarjetaRegalo(String string, int i) {
+		this.numeroCuenta = 1000;
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
     public int getNumeroCuenta() {
         return numeroCuenta;
     }
